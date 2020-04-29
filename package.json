@@ -1,8 +1,15 @@
 {
-  "name": "fanyi",
+  "name": "fanyi-gj",
   "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
+  "bin": {
+    "fy": "dist/cli.js"
+  },
+  "files": [
+    "dist/*.js"
+  ],
+  "repository": "https://github.com/guo-jing/fanyi.git",
   "dependencies": {
     "commander": "^5.0.0",
     "md5": "^2.2.1"

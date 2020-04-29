@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import * as program from "commander";
 import * as index from "./index"
 
